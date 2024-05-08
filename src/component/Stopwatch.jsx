@@ -33,7 +33,7 @@ const formateTime = (seconds) =>{
     let minute = Math.floor(seconds/60);
     let remainingSec = seconds%60;
 
-    return `${minute} : ${remainingSec<10 ? "0":""}${remainingSec}`
+    return `${minute}:${remainingSec<10 ? "0":""}${remainingSec}`
 }
   return (
 
