@@ -38,8 +38,8 @@ const formateTime = (seconds) =>{
   return (
 
     <div >
-      <h1>StopWatch</h1>
-      <div style={{fontSize:"20px"}}>Time : {formateTime(timer)}</div>
+      <h1>Stopwatch</h1>
+      <div style={{fontSize:"20px"}}>Time: {formateTime(timer)}</div>
       
     {isRunning ? (<button onClick={stopHandler}>Stop</button>) : (<button onClick={startHandler}>Start</button>)}
       
